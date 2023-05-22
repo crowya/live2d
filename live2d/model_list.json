@@ -1,0 +1,13 @@
+{
+    "models": [
+    	"tororo",
+    	"hijiki",
+    	"kesyoban"
+    ],
+    
+    "messages": [
+        "喵 ~",
+        "喵呜 ~",
+        "嘤嘤嘤 ~"
+    ]
+}
