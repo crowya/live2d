@@ -32,7 +32,7 @@ Object.defineProperty(document.querySelector('meting-js'), "aplayer", {
 </script>
 ```
 ## 文件功能说明（深度定制指南）
-- model——单层目录，下载的模型文件直接作为子文件夹放于其中（可以自定义）  
+- model——模型文件直接作为子文件夹放于其中（可以自定义）  
 - model_list.json——模型列表（可以自定义）  
 - waifu-tips.json——对话文本（可以自定义）  
 - live2d.min.js——Live2D动画核心文件，不需要修改  
