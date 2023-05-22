@@ -1,4 +1,6 @@
 # Live2D-with-music-player
+![image](https://github.com/crowya/Live2D-with-music-player/assets/61354956/ada1511d-5fbe-4e1e-b1ba-b656236706b6)
+
 Hi，这是鸦鸦自用的宠物播放器。  
 此版本极大地简化了代码逻辑，主要特点是：
 1. 不再需要 API
