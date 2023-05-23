@@ -1,4 +1,4 @@
-# Live2D-with-music-player
+# Live2D with Music Player
 ![cut_20230523214257](https://github.com/crowya/live2d/assets/61354956/e9fb2dfe-d6ff-4c49-861d-64cf841890d8)
 
 Hi，这是鸦鸦自用的宠物播放器。  
