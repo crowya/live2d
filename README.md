@@ -58,6 +58,55 @@ if (screen.width >= 768) {
 }
 </script>
 ```
+或者，用GitHub+CDN的方式直接引用，此时页尾脚本一共需要添加这些东西：
+```
+<!--宠物播放器-->
+<script>const live2d_path = "https://cdn.jsdelivr.net/gh/crowya/live2d/live2d/";</script>
+<meting-js server="tencent" type="playlist" id="8559460487" theme="#339981" fixed="true" preload="none" autoplay="false" loop="all" order="random" volume="0.3"></meting-js>
+<script>
+//封装异步加载资源的方法
+function loadExternalResource(url, type) {
+	return new Promise((resolve, reject) => {
+		let tag;
+		if (type === "css") {
+			tag = document.createElement("link");
+			tag.rel = "stylesheet";
+			tag.href = url;
+		}
+		else if (type === "js") {
+			tag = document.createElement("script");
+			tag.src = url;
+		}
+		if (tag) {
+			tag.onload = () => resolve(url);
+			tag.onerror = () => reject(url);
+			document.head.appendChild(tag);
+		}
+	});
+}
+
+if (screen.width >= 768) {
+	Promise.all([
+		loadExternalResource("https://cdn.jsdelivr.net/gh/crowya/live2d/live2d/waifu.min.css", "css"),
+		loadExternalResource("https://cdn.jsdelivr.net/gh/crowya/live2d/live2d/live2d.min.js", "js"),
+		loadExternalResource("https://cdn.jsdelivr.net/gh/crowya/live2d/live2d/waifu-tips.min.js", "js"),
+		loadExternalResource("https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css", "css"),
+		loadExternalResource("https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js", "js"),
+	]).then(() => {
+		loadExternalResource("https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js", "js");
+	});
+	ap = null;
+	Object.defineProperty(document.querySelector('meting-js'), "aplayer", {
+		set: function(aplayer) {
+        		ap = aplayer;
+        		ap_init();
+        		initWidget();
+		}
+	});
+}
+</script>
+```
+
 ## 文件功能说明（深度定制指南）
 - model——模型文件直接作为子文件夹放于其中（可以自定义）  
 - model_list.json——模型列表（可以自定义）  
