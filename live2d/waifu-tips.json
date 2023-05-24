@@ -140,7 +140,7 @@
 		"selector": "#post_comment_content",
 		"text": ["要吐槽些什么呢？", "评论支持Markdown语法的哦~", "有什么想说的吗？"]
 	}, {
-		"selector": "#post_comment_captcha, .vsubmit",
+		"selector": "#post_comment_captcha",
 		"text": ["输入验证码就可以提交评论啦～"]
 	}],
 	"seasons": [{
