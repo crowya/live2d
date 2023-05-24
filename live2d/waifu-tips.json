@@ -27,37 +27,37 @@
 		"selector": "#waifu-tool .fa-times",
 		"text": ["你是不是嫌我烦了？", "See you later.", "后会有期……", "不要抛弃我呀……", "我们，还能再见面吗……", "哼，你会后悔的！"]
 	}, {
-		"selector": ".menu-item-home a",
+		"selector": "a[href$='crowya.com']",
 		"text": ["点击前往首页，想回到上一页可以使用浏览器的后退功能哦。", "点它就可以回到首页啦！", "回首页看看吧。"]
 	}, {
-		"selector": ".menu-item-about a",
+		"selector": "a[href$='/about']",
 		"text": ["你想知道我家主人是谁吗？", "这里有一些关于我家主人的秘密哦，要不要看看呢？", "发现主人出没地点！"]
 	}, {
-		"selector": ".menu-item-tags a",
+		"selector": ".site-state-tags",
 		"text": ["点击就可以看文章的标签啦！", "点击来查看所有标签哦。"]
 	}, {
-		"selector": ".menu-item-categories a",
+		"selector": ".site-state-categories",
 		"text": ["文章都分类好啦～", "点击来查看文章分类哦。"]
 	}, {
-		"selector": ".menu-item-archives a",
+		"selector": "a[href$='/time']",
 		"text": ["翻页比较麻烦吗，那就来看看文章归档吧。", "文章目录都整理在这里啦！"]
 	}, {
-		"selector": ".menu-item-friends a",
+		"selector": "a[href$='/friendlinks']",
 		"text": ["这是我的朋友们哦ヾ(◍°∇°◍)ﾉﾞ", "要去大佬们的家看看吗？", "要去拜访一下我的朋友们吗？"]
 	}, {
-		"selector": ".menu-item-search a",
+		"selector": "#navbar_search_container, .menu-item-search a",
 		"text": ["找不到想看的内容？搜索看看吧！", "在找什么东西呢，需要帮忙吗？"]
 	}, {
-		"selector": ".menu-item a",
+		"selector": "#leftbar_tab_tools_btn, .menu-item a",
 		"text": ["快看看这里都有什么呢？"]
 	}, {
-		"selector": ".site-author",
+		"selector": "#leftbar_overview_author_image, .site-author",
 		"text": ["我家主人好看吗？", "这是我家主人(*´∇｀*)"]
 	}, {
 		"selector": ".site-state",
 		"text": ["这是文章的统计信息～", "要不要点进去看看？"]
 	}, {
-		"selector": ".feed-link a",
+		"selector": "a[href$='/feed']",
 		"text": ["这里可以使用 RSS 订阅呢！", "利用 feed 订阅器，就能快速知道博客有没有更新了呢。"]
 	}, {
 		"selector": ".cc-opacity, .post-copyright-author",
@@ -69,25 +69,22 @@
 		"selector": "#qrcode",
 		"text": ["手机扫一下就能继续看，很方便呢～", "扫一扫，打开新世界的大门！"]
 	}, {
-		"selector": ".fancybox img, img.medium-zoom-image",
+		"selector": "#post_content img, .fancybox img, img.medium-zoom-image",
 		"text": ["点击图片可以放大呢！"]
 	}, {
-		"selector": ".copy-btn",
+		"selector": ".fa-clipboard, .copy-btn",
 		"text": ["代码可以直接点击复制哟。"]
 	}, {
 		"selector": ".highlight .table-container, .gist",
 		"text": ["GitHub！我是新手！", "PHP 是最好的语言！"]
 	}, {
-		"selector": ".container a[href^='http'], .nav-link .nav-text",
-		"text": ["要去看看 <span>{text}</span> 么？", "去 <span>{text}</span> 逛逛吧。", "到 <span>{text}</span> 看看吧。"]
-	}, {
 		"selector": "a[href^='mailto']",
 		"text": ["邮件我会及时回复的！", "点击就可以发送邮件啦～"]
 	}, {
-		"selector": "a[href^='/tags/']",
+		"selector": "a[href^='/tag/']",
 		"text": ["要去看看 <span>{text}</span> 标签么？", "点它可以查看此标签下的所有文章哟！"]
 	}, {
-		"selector": "a[href^='/categories/']",
+		"selector": "a[href^='/category/']",
 		"text": ["要去看看 <span>{text}</span> 分类么？", "点它可以查看此分类下的所有文章哟！"]
 	}, {
 		"selector": ".post-preview .post-title",
