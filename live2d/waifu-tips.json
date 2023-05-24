@@ -90,14 +90,11 @@
 		"selector": "a[href^='/categories/']",
 		"text": ["要去看看 <span>{text}</span> 分类么？", "点它可以查看此分类下的所有文章哟！"]
 	}, {
-		"selector": ".post-title-link",
+		"selector": ".post-preview .post-title",
 		"text": ["要看看 <span>{text}</span> 这篇文章吗？"]
 	}, {
-		"selector": "a[rel='contents']",
-		"text": ["点击来阅读全文哦。"]
-	}, {
-		"selector": "a[itemprop='discussionUrl']",
-		"text": ["要去看看评论吗？"]
+		"selector": ".post-preview .post-content",
+		"text": ["点击标题来阅读全文哦。"]
 	}, {
 		"selector": "a[href$='beian.miit.gov.cn']",
 		"text": ["我也是有户口的人哦。", "我的主人可是遵纪守法的好主人。"]
@@ -105,10 +102,10 @@
 		"selector": ".container a[href^='http'], .nav-link .nav-text",
 		"text": ["要去看看 <span>{text}</span> 么？", "去 <span>{text}</span> 逛逛吧。", "到 <span>{text}</span> 看看吧。"]
 	}, {
-		"selector": ".back-to-top",
+		"selector": "#fabtn_back_to_top, .back-to-top",
 		"text": ["点它就可以回到顶部啦！", "又回到最初的起点～", "要回到开始的地方么？"]
 	}, {
-		"selector": ".reward-container",
+		"selector": ".donate-btn, .reward-container",
 		"text": ["我是不是棒棒哒～快给我点赞吧！", "要打赏我嘛？好期待啊～", "主人最近在吃土呢，很辛苦的样子，给他一些钱钱吧～"]
 	}, {
 		"selector": "#wechat",
@@ -117,40 +114,40 @@
 		"selector": "#alipay",
 		"text": ["这是我的支付宝哦！"]
 	}, {
-		"selector": "#bitcoin",
-		"text": ["这是我的比特币账号！"]
+		"selector": ".donate-qrcode",
+		"text": ["这是我的乞讨码！"]
 	}, {
-		"selector": "#needsharebutton-postbottom .btn",
+		"selector": "#share_show, #needsharebutton-postbottom .btn",
 		"text": ["好东西要让更多人知道才行哦。", "觉得文章有帮助的话，可以分享给更多需要的朋友呢。"]
 	}, {
-		"selector": ".need-share-button_weibo",
+		"selector": ".fa-weibo, .need-share-button_weibo",
 		"text": ["微博？来分享一波喵！"]
 	}, {
-		"selector": ".need-share-button_wechat",
+		"selector": ".fa-weixin, .need-share-button_wechat",
 		"text": ["分享到微信吧！"]
 	}, {
 		"selector": ".need-share-button_douban",
 		"text": ["分享到豆瓣好像也不错！"]
 	}, {
-		"selector": ".need-share-button_qqzone",
+		"selector": ".fa-qq, .need-share-button_qqzone",
 		"text": ["QQ 空间，一键转发，耶～"]
 	}, {
-		"selector": ".need-share-button_twitter",
+		"selector": ".fa-twitter, .need-share-button_twitter",
 		"text": ["Twitter？好像是不存在的东西？"]
 	}, {
-		"selector": ".need-share-button_facebook",
+		"selector": ".fa-facebook, .need-share-button_facebook",
 		"text": ["emmm…FB 好像也是不存在的东西？"]
 	}, {
-		"selector": ".post-nav-item a[rel='next']",
+		"selector": ".post-navigation-next, .post-nav-item a[rel='next']",
 		"text": ["来看看下一篇文章吧。", "点它可以看下一篇文章哦！", "要翻到下一篇文章吗？"]
 	}, {
-		"selector": ".post-nav-item a[rel='prev']",
+		"selector": ".post-navigation-pre, .post-nav-item a[rel='prev']",
 		"text": ["来看看上一篇文章吧。", "点它可以看上一篇文章哦！", "要翻到上一篇文章吗？"]
 	}, {
-		"selector": ".extend.next",
+		"selector": "a.page-link[aria-label='Next Page'], .extend.next",
 		"text": ["去下一页看看吧。", "点它可以前进哦！", "要翻到下一页吗？"]
 	}, {
-		"selector": ".extend.prev",
+		"selector": "a.page-link[aria-label='Previous Page'], .extend.prev",
 		"text": ["去上一页看看吧。", "点它可以后退哦！", "要翻到上一页吗？"]
 	}, {
 		"selector": "#post_comment_name, input.vnick",
@@ -163,7 +160,7 @@
 		"text": ["快快告诉我你的家在哪里，好让我去参观参观！"]
 	}, {
 		"selector": "#fabtn_go_to_comment, .veditor",
-		"text": ["想要去评论些什么吗？", "要说点什么吗？", "觉得博客不错？快来留言和主人交流吧！"]
+		"text": ["要去看看评论吗？", "想要吐槽什么吗？", "要说点什么吗？", "觉得博客不错？快来留言和主人交流吧！"]
 	}, {
 		"selector": ".vcontrol a",
 		"text": ["你会不会熟练使用 Markdown 呀？", "使用 Markdown 让评论更美观吧～"]
