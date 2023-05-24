@@ -153,31 +153,31 @@
 		"selector": ".extend.prev",
 		"text": ["去上一页看看吧。", "点它可以后退哦！", "要翻到上一页吗？"]
 	}, {
-		"selector": "input.vnick",
+		"selector": "#post_comment_name, input.vnick",
 		"text": ["该怎么称呼你呢？", "留下你的尊姓大名！"]
 	}, {
-		"selector": ".vmail",
+		"selector": "#post_comment_email, .vmail",
 		"text": ["留下你的邮箱，不然就是无头像人士了！", "记得设置好 Gravatar 头像哦！", "为了方便通知你最新消息，一定要留下邮箱！"]
 	}, {
-		"selector": ".vlink",
+		"selector": "#post_comment_link, .vlink",
 		"text": ["快快告诉我你的家在哪里，好让我去参观参观！"]
 	}, {
-		"selector": ".veditor",
+		"selector": "#fabtn_go_to_comment, .veditor",
 		"text": ["想要去评论些什么吗？", "要说点什么吗？", "觉得博客不错？快来留言和主人交流吧！"]
 	}, {
 		"selector": ".vcontrol a",
 		"text": ["你会不会熟练使用 Markdown 呀？", "使用 Markdown 让评论更美观吧～"]
 	}, {
-		"selector": ".vemoji-btn",
+		"selector": "#comment_emotion_btn, .vemoji-btn",
 		"text": ["要插入一个萌萌哒的表情吗？", "要来一发表情吗？"]
 	}, {
 		"selector": ".vpreview-btn",
 		"text": ["要预览一下你的发言吗？", "快看看你的评论有多少负熵！"]
 	}, {
-		"selector": ".vsubmit",
+		"selector": "#post_comment_send, .vsubmit",
 		"text": ["评论没有审核，要对自己的发言负责哦～", "要提交了吗，请耐心等待回复哦～"]
 	}, {
-		"selector": ".vcontent",
+		"selector": ".comment-item-text, .vcontent",
 		"text": ["哇，快看看这个精彩评论！", "如果有疑问，请尽快留言哦～"]
 	}],
 	
@@ -185,10 +185,10 @@
 		"selector": "#waifu #live2d",
 		"text": ["生气了哦，不要动手动脚的！","愚蠢的人类，看见猫就想撸", "看见广告了吗？能不能帮我点一下ಥ_ಥ", "听我说谢谢你，因为有你，温暖了四季，谢谢你，感谢有你，世界更美丽～", "你有完没有？","不要摸我了，信不信我敲碎你的屏幕？", "干嘛动我呀！小心我咬你！", "鸦鸦快来救我！"]
 	}, {
-		"selector": "#post_comment_content, #fabtn_go_to_comment, .veditor",
+		"selector": "#post_comment_content, .veditor",
 		"text": ["要吐槽些什么呢？", "一定要认真填写喵～", "有什么想说的吗？"]
 	}, {
-		"selector": "#post_comment_send, #post_comment_captcha, .vsubmit",
+		"selector": "#post_comment_captcha, .vsubmit",
 		"text": ["输入验证码就可以提交评论啦～"]
 	}],
 	"seasons": [{
