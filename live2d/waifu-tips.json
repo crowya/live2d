@@ -99,7 +99,7 @@
 		"selector": "a[itemprop='discussionUrl']",
 		"text": ["要去看看评论吗？"]
 	}, {
-		"selector": ".beian a",
+		"selector": "a[href$="beian.miit.gov.cn"], .beian a",
 		"text": ["我也是有户口的人哦。", "我的主人可是遵纪守法的好主人。"]
 	}, {
 		"selector": ".container a[href^='http'], .nav-link .nav-text",
@@ -179,9 +179,6 @@
 	}, {
 		"selector": ".vcontent",
 		"text": ["哇，快看看这个精彩评论！", "如果有疑问，请尽快留言哦～"]
-	}, {
-		"selector": ".beian a",
-		"text": ["我也是有户口的人哦。", "我的主人可是遵纪守法的好主人。"]
 	}],
 	
 	"click": [{
