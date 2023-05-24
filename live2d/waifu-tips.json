@@ -188,10 +188,10 @@
 		"selector": "#waifu #live2d",
 		"text": ["生气了哦，不要动手动脚的！","愚蠢的人类，看见猫就想撸", "看见广告了吗？能不能帮我点一下ಥ_ಥ", "听我说谢谢你，因为有你，温暖了四季，谢谢你，感谢有你，世界更美丽～", "你有完没有？","不要摸我了，信不信我敲碎你的屏幕？", "干嘛动我呀！小心我咬你！", "鸦鸦快来救我！"]
 	}, {
-		"selector": ".veditor",
+		"selector": "#post_comment_content, #fabtn_go_to_comment, .veditor",
 		"text": ["要吐槽些什么呢？", "一定要认真填写喵～", "有什么想说的吗？"]
 	}, {
-		"selector": ".vsubmit",
+		"selector": "#post_comment_send, #post_comment_captcha, .vsubmit",
 		"text": ["输入验证码就可以提交评论啦～"]
 	}],
 	"seasons": [{
