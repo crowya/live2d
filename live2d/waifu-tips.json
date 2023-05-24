@@ -54,9 +54,6 @@
 		"selector": "#leftbar_overview_author_image, .site-author",
 		"text": ["我家主人好看吗？", "这是我家主人(*´∇｀*)"]
 	}, {
-		"selector": ".site-state",
-		"text": ["这是文章的统计信息～", "要不要点进去看看？"]
-	}, {
 		"selector": "a[href$='/feed']",
 		"text": ["这里可以使用 RSS 订阅呢！", "利用 feed 订阅器，就能快速知道博客有没有更新了呢。"]
 	}, {
@@ -81,10 +78,10 @@
 		"selector": "a[href^='mailto']",
 		"text": ["邮件我会及时回复的！", "点击就可以发送邮件啦～"]
 	}, {
-		"selector": "a[href^='/tag/']",
+		"selector": "a[href*='/tag/']",
 		"text": ["要去看看 <span>{text}</span> 标签么？", "点它可以查看此标签下的所有文章哟！"]
 	}, {
-		"selector": "a[href^='/category/']",
+		"selector": "a[href*='/category/']",
 		"text": ["要去看看 <span>{text}</span> 分类么？", "点它可以查看此分类下的所有文章哟！"]
 	}, {
 		"selector": ".post-preview .post-title",
