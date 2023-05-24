@@ -36,7 +36,7 @@
 		"selector": "a[href$='/friendlinks']",
 		"text": ["这是我的朋友们哦ヾ(◍°∇°◍)ﾉﾞ", "要去大佬们的家看看吗？", "要去拜访一下我的朋友们吗？"]
 	}, {
-		"selector": "#navbar_search_input_container, #leftbar_search_input",
+		"selector": "#navbar_search_input, #leftbar_search_input",
 		"text": ["找不到想看的内容？搜索看看吧！", "在找什么东西呢，需要帮忙吗？"]
 	}, {
 		"selector": "#leftbar_tab_tools_btn",
