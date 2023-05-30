@@ -6,6 +6,10 @@
 	margin-bottom: 0 !important;
 }
 
+.aplayer * {
+    color: #666;
+}
+
 /*折叠时小标签*/
 #waifu-toggle {
 	background-color: #206051; /*折叠时小标签背景颜色*/
