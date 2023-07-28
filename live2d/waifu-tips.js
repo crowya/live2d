@@ -22,12 +22,12 @@ function aplayer_panel_toggle(){
 var simple_mode=false;
 function simple_mode_toggle(){
 	if(simple_mode){
-		$("html").removeClass("simple-mode filter-grayscale no-banner");
+		$("html").removeClass("simple-mode filter-grayscale no-banner navbar-absolute");
 		$("html").addClass("banner-as-cover");
 		simple_mode=false;
 	}
 	else{
-		$("html").addClass("simple-mode filter-grayscale no-banner");
+		$("html").addClass("simple-mode filter-grayscale no-banner navbar-absolute");
 		$("html").removeClass("banner-as-cover");
 		simple_mode=true;
 	}
