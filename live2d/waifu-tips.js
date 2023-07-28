@@ -206,8 +206,8 @@ function loadWidget() {
 			modelTexturesId = localStorage.getItem("modelTexturesId");
 		if (modelId === null) {
 			// 首次访问加载 指定模型 的 指定材质
-			const now = new Date();
-			if(now.getHours()>=20 || now.getHours()<8){
+			const hour = new Date().getHours();
+			if(hour>=20 || hour<8){
 				modelId = 1; // 夜间模型ID
 			}else{
 				modelId = 0; // 白天模型ID
