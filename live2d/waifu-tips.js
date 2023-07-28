@@ -190,8 +190,13 @@ function loadWidget() {
 			modelTexturesId = localStorage.getItem("modelTexturesId");
 		if (modelId === null) {
 			// 首次访问加载 指定模型 的 指定材质
-			modelId = 0; // 模型 ID
-			modelTexturesId = 0; // 材质 ID
+			const now = new Date();
+			if(now.getHours()>=22 || now.getHours()<7){
+				modelId = 1; // 夜间模型ID
+			}else{
+				modelId = 0; // 白天模型ID
+			}
+			modelTexturesId = 0; // 材质ID
 		}
 		loadModel(modelId, modelTexturesId);
 		fetch(`${live2d_path}waifu-tips.json`)
