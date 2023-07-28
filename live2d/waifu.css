@@ -10,7 +10,7 @@
 	background: linear-gradient(180deg, transparent 0%, var(--color-foreground) 100%) !important;
 }
 
-.no-banner .navbar-ontop a :not(.dropdown-menu), .no-banner .navbar-ontop .navbar-title {
+.simple-mode .navbar-ontop a :not(.dropdown-menu), .simple-mode .navbar-ontop .navbar-title {
     text-shadow: 0px 0px 6px rgba(0,0,0,1);
 }
 
