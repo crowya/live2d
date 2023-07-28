@@ -23,6 +23,10 @@
 	background: none;
 }
 
+.simple-mode ::-webkit-scrollbar-track, .simple-mode ::-webkit-scrollbar-thumb{
+	background-color:none;
+}
+
 .zero-margin-bottom {
 	margin-bottom: 0 !important;
 }
