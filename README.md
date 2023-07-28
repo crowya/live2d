@@ -1,15 +1,17 @@
 # Live2D with Music Player
-![cut_20230728154719](https://github.com/crowya/live2d/assets/61354956/c18cade0-2b74-4275-843b-826869e6d8de)
+Hi，这是鸦鸦自用的宠物播放器。此版本极大地简化了代码逻辑。  
 
 效果演示：[Live2D 宠物功能修改 | 音乐播放器+右键秘密通道](https://crowya.com/1088)  
 
-功能更新：
+![cut_20230728154719](https://github.com/crowya/live2d/assets/61354956/c18cade0-2b74-4275-843b-826869e6d8de)
+
+### 功能更新：
 1. 白猫/黑猫支持随时间自动切换啦！
 2. 右键秘密通道增加了极简模式，此模式下会去掉页面背景并启用灰度模式，上班时间访问博客不像在摸鱼啦！（只测试了Argon主题）
+
 ![cut_20230728155339](https://github.com/crowya/live2d/assets/61354956/ac793e7c-e3ae-4fe0-ba85-4f795a69657b)
 
-Hi，这是鸦鸦自用的宠物播放器。  
-此版本极大地简化了代码逻辑，主要特点是：
+### 主要特点：
 1. 不再需要 API
 2. 不再需要自定义 CSS（已集成到 waifu.css）
 3. 不再需要修改任何 JS（所有配置参数已挪到页尾脚本）
