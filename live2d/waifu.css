@@ -24,7 +24,7 @@
 }
 
 .simple-mode ::-webkit-scrollbar-track, .simple-mode ::-webkit-scrollbar-thumb{
-	background-color:none;
+	background-color:none !important;
 }
 
 .zero-margin-bottom {
