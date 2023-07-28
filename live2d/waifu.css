@@ -23,8 +23,8 @@
 	background: none;
 }
 
-.simple-mode ::-webkit-scrollbar-track, .simple-mode ::-webkit-scrollbar-thumb{
-	background-color:none !important;
+.simple-mode ::-webkit-scrollbar-track{
+	background:none;
 }
 
 .zero-margin-bottom {
