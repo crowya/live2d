@@ -6,6 +6,10 @@
 	display: none !important;
 }
 
+.simple-shuoshuo-folded:after {
+	background: linear-gradient(180deg, transparent 0%, var(--color-foreground) 100%);
+}
+
 .zero-margin-bottom {
 	margin-bottom: 0 !important;
 }
