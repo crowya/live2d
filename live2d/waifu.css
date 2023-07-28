@@ -14,6 +14,15 @@
 	text-shadow: 0px 0px 6px rgba(0,0,0,1);
 }
 
+.simple-mode #footer{
+	background: none;
+	text-shadow: 0px 0px 4px rgba(0,0,0,1);
+}
+
+.simple-mode .leftbar-banner{
+	background: none;
+}
+
 .zero-margin-bottom {
 	margin-bottom: 0 !important;
 }
