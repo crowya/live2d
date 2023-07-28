@@ -22,17 +22,15 @@ function aplayer_panel_toggle(){
 var simple_mode=false;
 function simple_mode_toggle(){
 	if(simple_mode){
-		$("#content").removeClass("background-hide");
+		$("html").removeClass("simple-mode");
 		$("html").removeClass("filter-grayscale");
-		$(".shuoshuo-content.shuoshuo-folded").removeClass("simple-shuoshuo-folded");
 		$("html").addClass("banner-as-cover");
 		$("html").removeClass("no-banner");
 		simple_mode=false;
 	}
 	else{
-		$("#content").addClass("background-hide");
+		$("html").addClass("simple-mode");
 		$("html").addClass("filter-grayscale");
-		$(".shuoshuo-content.shuoshuo-folded").addClass("simple-shuoshuo-folded");
 		$("html").removeClass("banner-as-cover");
 		$("html").addClass("no-banner");
 		simple_mode=true;
