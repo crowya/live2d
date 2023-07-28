@@ -2,6 +2,10 @@
 	display: none !important;
 }
 
+.background-hide:before {
+	display: none !important;
+}
+
 .zero-margin-bottom {
 	margin-bottom: 0 !important;
 }
