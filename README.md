@@ -1,7 +1,11 @@
 # Live2D with Music Player
-![cut_20230523214257](https://github.com/crowya/live2d/assets/61354956/e9fb2dfe-d6ff-4c49-861d-64cf841890d8)
+![cut_20230728154719](https://github.com/crowya/live2d/assets/61354956/c18cade0-2b74-4275-843b-826869e6d8de)
 
 效果演示：[Live2D 宠物功能修改 | 音乐播放器+右键秘密通道](https://crowya.com/1088)  
+
+功能更新：
+1. 白猫/黑猫支持随时间自动切换啦！
+2. 右键秘密通道增加了极简模式，此模式下会去掉页面背景并启用灰度模式，上班时间访问博客不像在摸鱼啦！（只测试了Argon主题）
 
 Hi，这是鸦鸦自用的宠物播放器。  
 此版本极大地简化了代码逻辑，主要特点是：
