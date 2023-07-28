@@ -10,11 +10,13 @@ function aplayer_panel_toggle(){
 	if(music_flag){
 		$(".aplayer.aplayer-fixed .aplayer-body").addClass("my-hide");
 		$(".aplayer.aplayer-fixed .aplayer-list").addClass("my-hide zero-margin-bottom");
+		$(".shuoshuo-content.shuoshuo-folded").removeClass("simple-shuoshuo-folded");
 		music_flag=false;
 	}
 	else{
 		$(".aplayer.aplayer-fixed .aplayer-body").removeClass("my-hide");
 		$(".aplayer.aplayer-fixed .aplayer-list").removeClass("my-hide zero-margin-bottom");
+		$(".shuoshuo-content.shuoshuo-folded").addClass("simple-shuoshuo-folded");
 		music_flag=true;
 	}
 }
