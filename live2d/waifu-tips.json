@@ -210,6 +210,6 @@
 		"console": "哈哈，你打开了控制台，是想要看看我的小秘密吗？",
 		"copy": "你都复制了些什么呀，转载要记得加上出处哦！",
 		"visibilitychange": "哇，你终于回来了～",
-		"secret_path":"<div style=\"text-align:center\">秘密通道<br/><a href=\"javascript:simple_mode_toggle();\">极简模式</a><br/><a href=\"javascript:aplayer_panel_toggle();\">音乐播放器</a><br/><a href=\"https://crowya.com/yayawplogin\" target=\"_blank\">WordPress</a><br/><a href=\"http://139.224.16.2:1999/yayabt/\" target=\"_blank\">宝塔面板</a><br/><a href=\"https://homenew.console.aliyun.com/\" target=\"_blank\">阿里云</a></div>"
+		"secret_path":"<div style=\"text-align:center\">秘密通道<br/><a href=\"javascript:simple_mode_toggle();\">极简模式</a><br/><a href=\"javascript:aplayer_panel_toggle();\">音乐播放器</a><br/><a href=\"https://crowya.com/yayawplogin\" target=\"_blank\">WordPress</a><br/><a href=\"http://139.224.16.2:1999/yayabt/\" target=\"_blank\">宝塔面板</a></div>"
 	}
 }
