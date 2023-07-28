@@ -19,6 +19,20 @@ function aplayer_panel_toggle(){
 	}
 }
 
+var simple_mode=false;
+function simple_mode_toggle(){
+	if(simple_mode){
+		$("#content").removeClass("background-hide");
+		$("html").removeClass("filter-grayscale");
+		simple_mode=false;
+	}
+	else{
+		$("#content").addClass("background-hide");
+		$("html").addClass("filter-grayscale");
+		simple_mode=true;
+	}
+}
+
 function loadWidget() {
 	localStorage.removeItem("waifu-display");
 	sessionStorage.removeItem("waifu-text");
