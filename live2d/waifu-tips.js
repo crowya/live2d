@@ -22,17 +22,13 @@ function aplayer_panel_toggle(){
 var simple_mode=false;
 function simple_mode_toggle(){
 	if(simple_mode){
-		$("html").removeClass("simple-mode");
-		$("html").removeClass("filter-grayscale");
+		$("html").removeClass("simple-mode filter-grayscale no-banner");
 		$("html").addClass("banner-as-cover");
-		$("html").removeClass("no-banner");
 		simple_mode=false;
 	}
 	else{
-		$("html").addClass("simple-mode");
-		$("html").addClass("filter-grayscale");
+		$("html").addClass("simple-mode filter-grayscale no-banner");
 		$("html").removeClass("banner-as-cover");
-		$("html").addClass("no-banner");
 		simple_mode=true;
 	}
 }
