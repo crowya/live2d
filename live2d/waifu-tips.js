@@ -19,22 +19,6 @@ function aplayer_panel_toggle(){
 	}
 }
 
-var simple_mode=false;
-function simple_mode_toggle(){
-	if(simple_mode){
-		$("html").removeClass("simple-mode filter-grayscale no-banner navbar-absolute");
-		$("html").addClass("banner-as-cover");
-		$(".leftbar-banner-title, .leftbar-banner-subtitle").addClass("text-white");
-		simple_mode=false;
-	}
-	else{
-		$("html").addClass("simple-mode filter-grayscale no-banner navbar-absolute");
-		$("html").removeClass("banner-as-cover");
-		$(".leftbar-banner-title, .leftbar-banner-subtitle").removeClass("text-white");
-		simple_mode=true;
-	}
-}
-
 function loadWidget() {
 	localStorage.removeItem("waifu-display");
 	sessionStorage.removeItem("waifu-text");
