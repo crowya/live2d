@@ -2,31 +2,6 @@
 	display: none !important;
 }
 
-.simple-mode #content:before {
-	display: none !important;
-}
-
-.simple-mode .shuoshuo-content.shuoshuo-folded:after {
-	background: linear-gradient(180deg, transparent 0%, var(--color-foreground) 100%) !important;
-}
-
-.simple-mode .navbar-ontop a :not(.dropdown-menu), .simple-mode .navbar-ontop .navbar-title {
-	text-shadow: 0px 0px 6px rgba(0,0,0,1);
-}
-
-.simple-mode #footer{
-	background: none;
-	text-shadow: 0px 0px 4px rgba(0,0,0,1);
-}
-
-.simple-mode .leftbar-banner{
-	background: none;
-}
-
-.simple-mode ::-webkit-scrollbar-track{
-	background:none;
-}
-
 .zero-margin-bottom {
 	margin-bottom: 0 !important;
 }
